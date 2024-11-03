@@ -62,7 +62,7 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: pink;
 }
 
 /* Caption text */
@@ -173,4 +173,19 @@
     text-align: left;
     margin-left: 20px;
 }
-
+/*Icon*/
+.link-icon
+{
+    width: 50px;
+    height: 50px;
+}
+.icon-container
+{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+   gap: 15px;
+}

@@ -15,11 +15,16 @@
 </div>
 
 <div class="title">
-    <h3>Lê Thị Minh Châu <br>
+    <h3>Portfolio<br>
         Welcome to my profile!
     </h3>
-</div>
+</div >
 
+<div class="icon-container">
+    <a href="https://www.facebook.com/Billtaylor2003?mibextid=LQQJ4d"><img src="iconFacebook.png" alt="" class="link-icon"></a>
+    <a href="https://www.instagram.com/jolegrangerjayde/"><img src="iconInstagram.png" alt="" class="link-icon"></a>
+    <a href="https://www.upwork.com/freelancers/~0180187b6eb852c64b?mp_source=share"><img src="iconUpwork.png" alt="" class="link-icon"></a>
+</div>
 <!-- Content container to align slideshow and profile side by side -->
 <div class="content-container">
     <!-- Slideshow container -->
@@ -106,15 +111,15 @@
     function showSlides(n) {
         let i;
         let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
+        // let dots = document.getElementsByClassName("dot");
         if (n > slides.length) {slideIndex = 1}
         if (n < 1) {slideIndex = slides.length}
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
+        // for (i = 0; i < dots.length; i++) {
+        //     dots[i].className = dots[i].className.replace(" active", "");
+        // }
         slides[slideIndex-1].style.display = "block";
         dots[slideIndex-1].className += " active";
     }
