@@ -18,6 +18,19 @@
 .topnav a.activeNav {
     color: pink;
 }
+.name-container {
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.name ,.name-position{
+    font-family:"Candara Light" , sans-serif;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+.name-position{
+    font-size:30px;
+}
 .title
 {
     text-align: center;
@@ -133,6 +146,7 @@
     align-items: flex-start;
     gap: 100px; /* Khoảng cách giữa slideshow và bảng profile */
     margin-left: 20px;
+    margin-top: 400px;
 }
 
 .slideshow-container {
@@ -229,4 +243,12 @@ td{
     text-align: center;
     line-height: 20px;
     border-color: pink;
+}
+.title-exp-working
+{
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Candara Light, cursive;
+    color: black;
 }
