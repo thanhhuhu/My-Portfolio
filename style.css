@@ -35,7 +35,7 @@
 {
     text-align: center;
     font-family:"Candara Light", cursive;
-    font-size: xx-large;
+    font-size: 15px;
 }
 * {box-sizing:border-box}
 
@@ -146,7 +146,7 @@
     align-items: flex-start;
     gap: 100px; /* Khoảng cách giữa slideshow và bảng profile */
     margin-left: 20px;
-    margin-top: 400px;
+    margin-top: 90px;
 }
 
 .slideshow-container {
@@ -183,7 +183,7 @@
 }
 
 .portfolio-table tr:hover {
-    background-color: yellow;
+    background-color: hotpink;
 }
 
 .dot-container {
@@ -224,6 +224,7 @@
     font-size: 40px;
     font-weight: bold;
     text-align: center;
+    font-family: Candara Light, cursive;
 }
 td{
     padding:10px;
@@ -251,4 +252,95 @@ td{
     font-weight: bold;
     font-family: Candara Light, cursive;
     color: black;
+}
+/* container-resume*/
+.container-title-resume
+{
+    text-align: center;
+    margin-top:20px;
+}
+.container-title-resume h3
+{
+    font-family: Candara Light, cursive;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.line-resume
+{
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: deeppink;
+}
+.line-resume:before
+{
+    content:' ';
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    width: 30px;
+    height: 2px;
+    background-color: black
+}
+/*container-resume */
+.container-resume
+{
+    width:80%;
+    max-width: 900px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: Candara Light, cursive;
+    color: black;
+}
+.container-resume h2
+{
+    color: pink;
+}
+.section-resume
+{
+    position: relative;
+    padding-left: 30px;
+    margin-bottom:20px;
+}
+.section-resume::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: pink;
+}
+/*ending*/
+.ending-container
+{
+    text-align: center;
+    background-color: pink;
+}
+.ending-container h3
+{
+    font-family: Candara Light, cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ending-container img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: -5px ;
+}
+.ending-container h5
+{
+    font-family: Candara Light, cursive;
+    font-size: 10px;
+    font-weight: bold;
+}
+.ending-container h7
+{
+    font-family: Candara Light, cursive;
+    font-size: 10px;
+    font-weight: bold;
 }
