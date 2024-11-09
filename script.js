@@ -24,5 +24,19 @@ function showSlides(n) {
     //     dots[i].className = dots[i].className.replace(" active", "");
     // }
     slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
+    // dots[slideIndex-1].className += " active";
 }
+// Function to scroll to the top
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Show the button when scrolling down
+window.onscroll = function() {
+    let button = document.getElementById("scrollTopButton");
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        button.style.display = "block";
+    } else {
+        button.style.display = "none";
+    }
+};

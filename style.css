@@ -18,19 +18,19 @@
 .topnav a.activeNav {
     color: pink;
 }
-.name-container {
-    margin-left: 200px;
-    margin-top: 150px;
-}
-.name ,.name-position{
-    font-family:"Candara Light" , sans-serif;
-    font-size: 60px;
-    color: black;
-    font-weight: bold;
-}
-.name-position{
-    font-size:30px;
-}
+/*.name-container {*/
+/*    margin-left: 200px;*/
+/*    margin-top: 150px;*/
+/*}*/
+/*.name ,.name-position{*/
+/*    font-family:"Candara Light" , sans-serif;*/
+/*    font-size: 60px;*/
+/*    color: black;*/
+/*    font-weight: bold;*/
+/*}*/
+/*.name-position{*/
+/*    font-size:30px;*/
+/*}*/
 .title
 {
     text-align: center;
@@ -202,9 +202,9 @@
     flex-direction: column;
     position: fixed;
     right: 20px;
-    top: 50%;
+    top: 20%;
     transform: translateY(-50%);
-   gap: 15px;
+    gap: 5px;
 }
 .table-details
 {
@@ -343,4 +343,24 @@ td{
     font-family: Candara Light, cursive;
     font-size: 10px;
     font-weight: bold;
+}
+#scrollTopButton
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 10px;
+    background-color: pink;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+#scrollTopButton:hover
+{
+    background-color: deeppink;
 }
